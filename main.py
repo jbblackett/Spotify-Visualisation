@@ -3,9 +3,9 @@ import spotipy.util as util
 import time as t
 
 scope = 'user-read-currently-playing'
-user = 'monitorlad'
-client = 'f677c230b89246a3b43875be57390003'
-secret = 'f20c76184bf14c9284a50ebb60bd67aa'
+user = ''
+client = ''
+secret = ''
 redirect = 'http://localhost:8888/callback'
 
 token = util.prompt_for_user_token(user, scope, client, secret, redirect)
